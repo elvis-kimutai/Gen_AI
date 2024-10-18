@@ -4,6 +4,14 @@ from config.database import init_db
 from models.inventory import get_all_items, add_item, update_item, delete_item
 from services.description_generator import generate_description
 
+
+import subprocess
+import sys
+
+def install_psycopg2_binary():
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "psycopg2-binary==2.9.6"])
+
+install_psycopg2_binary()
 # Initialize the database
 init_db()
 
