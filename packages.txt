@@ -1,3 +1,2 @@
 rustc
-cargo
-
+spacy
