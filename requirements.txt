@@ -1,5 +1,5 @@
-streamlit==1.22.0
+streamlit==1.38.0
 pandas==1.5.3
-transformers==4.29.2
+transformers==4.21.1  # Use a version that doesn't need tokenizers to compile
 torch==2.2.0
-tokenizers
+
