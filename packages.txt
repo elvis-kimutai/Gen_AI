@@ -1,7 +1,10 @@
+# Install curl if not already present
+apt-get update && apt-get install -y curl
+
 # Install rustup (Rust installer and version management tool)
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-# Set the environment variables for cargo
+# Set the environment variables for cargo (note: this might not persist across sessions)
 source $HOME/.cargo/env
 
 # Install Rust and Cargo
