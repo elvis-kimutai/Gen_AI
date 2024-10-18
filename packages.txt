@@ -1,2 +1,9 @@
-rustc
-cargo
+# Install rustup (Rust installer and version management tool)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Set the environment variables for cargo
+source $HOME/.cargo/env
+
+# Install Rust and Cargo
+rustup install stable
+
