@@ -2,4 +2,7 @@ streamlit==1.38.0
 pandas==1.5.3
 transformers==4.21.1  # Use a version that doesn't need tokenizers to compile
 torch==2.2.0
-
+tokenizers==0.13.2
+https://files.pythonhosted.org/packages/9e/50/c682e5561615f89f47772e61a9b87a631de4b28e8f7dbc7d31a505495c5d/tokenizers-0.13.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+setuptools_rust==1.5.2
+pip>=24.2
